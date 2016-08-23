@@ -1,0 +1,10 @@
+machine:
+  node:
+    version: 6.3.1
+dependencies:
+  post:
+    - cp ./config.example.toml ./config.toml
+test:
+  override:
+    - npm run lint
+    - npm run coverage

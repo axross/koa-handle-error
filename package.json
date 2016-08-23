@@ -1,0 +1,27 @@
+{
+  "name": "koa-handle-error",
+  "version": "0.0.0",
+  "description": "Error handler Middleware for Koa@2.x",
+  "main": "handleError.js",
+  "author": "Kohei Asai <me@axross.io> (https://github.com/axross)",
+  "license": "MIT",
+  "files": [
+    "handleError.js",
+    "handleError.d.ts",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "ava",
+    "coverage": "nyc ava"
+  },
+  "devDependencies": {
+    "ava": "0.16.0",
+    "boom": "3.2.2",
+    "eslint": "3.3.1",
+    "eslint-config-airbnb-base": "5.0.3",
+    "eslint-plugin-import": "1.14.0",
+    "nyc": "8.1.0"
+  }
+}
