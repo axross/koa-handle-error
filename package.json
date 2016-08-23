@@ -1,6 +1,6 @@
 {
   "name": "koa-handle-error",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Error handler Middleware for Koa@2.x",
   "main": "handleError.js",
   "author": "Kohei Asai <me@axross.io> (https://github.com/axross)",
