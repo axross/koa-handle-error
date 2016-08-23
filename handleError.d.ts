@@ -7,5 +7,6 @@ declare module 'koa-handle-error' {
 
   const handleError: HandleError;
 
+  export default handleError;
   export = handleError;
 }
