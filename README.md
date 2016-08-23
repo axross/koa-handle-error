@@ -10,7 +10,7 @@ npm install koa-handle-error
 
 ## Usage
 
-*IMPORTANT: `handleError` must register first as Koa middleware!*
+**IMPORTANT: `handleError` must register first as Koa middleware!**
 
 ```js
 const Koa = require('koa');
