@@ -3,6 +3,7 @@
   "version": "0.0.3",
   "description": "Error handler Middleware for Koa@2.x",
   "main": "handleError.js",
+  "typings": "index.d.ts",
   "author": "Kohei Asai <me@axross.io> (https://github.com/axross)",
   "license": "MIT",
   "files": [
