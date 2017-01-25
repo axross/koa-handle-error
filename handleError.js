@@ -19,7 +19,7 @@ const handleError = onError => {
 
   return (context, next) => next()
     .then(() => {
-      if (context.body === undefined) {
+      if (context.body === undefined && context.request.method !== 'OPTIONS') {
         context.status = NOTFOUND_STATUS;
         context.body = NOTFOUND_BODY;
       }
