@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/koa-handle-error.svg)](https://badge.fury.io/js/koa-handle-error)
 [![CircleCI](https://circleci.com/gh/axross/koa-handle-error/tree/master.svg?style=svg&circle-token=85b535fa3bfdc52bf0059ba0110faec119624a39)](https://circleci.com/gh/axross/koa-handle-error/tree/master)
+<a href="https://communityinviter.com/apps/koa-js/koajs" rel="KoaJs Slack Community">![KoaJs Slack](https://img.shields.io/badge/Koa.Js-Slack%20Channel-Slack.svg?longCache=true&style=for-the-badge)</a>
 
 Error handler Middleware for [Koa@2.x](https://github.com/koajs/koa/tree/v2.x)
 
